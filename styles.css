@@ -76,7 +76,22 @@ h1 span { color: var(--green); }
 .person.child .face { background: #edc09b; }
 .person.child .hair { background: #473a32; border-radius: 50% 45% 28% 30%; }
 .person.child .body { background: #819fb0; width: 96px; }
-.art-caption { position: absolute; z-index: 5; left: 20px; bottom: 19px; color: #365447; font-size: .78rem; font-weight: 800; line-height: 1.5; }
+.art-caption {
+  position: absolute;
+  z-index: 5;
+  left: 22px;
+  top: 48%;
+  bottom: auto;
+  max-width: 180px;
+  padding: 12px 15px;
+  border-radius: 14px;
+  background: rgba(255, 254, 250, .88);
+  box-shadow: 0 8px 24px rgba(41, 61, 50, .08);
+  color: #365447;
+  font-size: .82rem;
+  font-weight: 800;
+  line-height: 1.6;
+}
 .plant { position: absolute; z-index: 2; bottom: 8px; width: 55px; height: 90px; }
 .plant-left { left: 18px; }.plant-right { right: 24px; transform: scale(.8); }
 .plant b { position: absolute; bottom: 0; left: 26px; width: 3px; height: 65px; background: #668c70; }
