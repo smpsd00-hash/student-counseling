@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="新竹市東區三民國小學生輔導專區，提供學生輔導、情緒覺察、親職教育與校外支持資源。">
+  <meta name="theme-color" content="#f7f5ef">
+  <title>學生輔導專區｜新竹市東區三民國小</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <div class="utility-bar">
+    <div class="container utility-inner">
+      <span>新竹市東區三民國民小學</span>
+      <span class="utility-note">傾聽心聲・陪伴成長・一起找到方法</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="學生輔導專區首頁">
+        <span class="brand-mark" aria-hidden="true">心</span>
+        <span class="brand-copy">
+          <strong>學生輔導專區</strong>
+          <small>新竹市東區三民國小</small>
+        </span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav">
+        <span aria-hidden="true">☰</span><span class="sr-only">開啟導覽選單</span>
+      </button>
+      <nav class="primary-nav" id="primaryNav" aria-label="主要導覽">
+        <a href="#home">專區首頁</a>
+        <a href="#team">認識輔導團隊</a>
+        <a href="#system">輔導計畫與體制</a>
+        <a href="#activities">輔導活動與 SEL</a>
+        <a href="#resources">校外支持資源</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A SAFE PLACE TO GROW</p>
+          <h1>每一份心情，<br><span>都值得被好好聽見。</span></h1>
+          <p class="hero-lead">成長的路上，有時會開心、有時會困惑。學生輔導專區陪伴孩子認識自己、理解他人，也讓家長與老師更容易找到支持資源。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#mood">探索今天的心情 <span aria-hidden="true">↘</span></a>
+            <a class="button button-secondary" href="#resources">尋找求助資源</a>
+          </div>
+          <p class="small-note">若你或身邊的人正處於立即危險，請立刻向可信任的大人求助，或聯絡當地緊急服務。</p>
+        </div>
+        <div class="hero-art" aria-label="溫暖陪伴的抽象插畫">
+          <div class="sun"></div><div class="hill hill-back"></div><div class="hill hill-front"></div>
+          <div class="floating-card card-one"><span class="mini-icon">♡</span><span>我願意聽你說</span></div>
+          <div class="floating-card card-two"><span class="mini-icon">✦</span><span>慢慢來也可以</span></div>
+          <div class="plant plant-left"><i></i><i></i><b></b></div>
+          <div class="plant plant-right"><i></i><i></i><b></b></div>
+          <div class="people">
+            <div class="person adult"><span class="hair"></span><span class="face"></span><span class="body"></span></div>
+            <div class="person child"><span class="hair"></span><span class="face"></span><span class="body"></span></div>
+          </div>
+          <div class="art-caption">理解每一份感受<br>支持每一次成長</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-links section-tight">
+      <div class="container quick-grid">
+        <a class="quick-card" href="#team"><span class="quick-icon sage">♧</span><span><strong>認識輔導團隊</strong><small>找到適合的聯絡窗口</small></span><b aria-hidden="true">↗</b></a>
+        <a class="quick-card" href="#system"><span class="quick-icon blue">▤</span><span><strong>輔導制度與計畫</strong><small>了解學校如何支持孩子</small></span><b aria-hidden="true">↗</b></a>
+        <a class="quick-card" href="#activities"><span class="quick-icon peach">✿</span><span><strong>活動與成長資源</strong><small>練習覺察、表達與同理</small></span><b aria-hidden="true">↗</b></a>
+        <a class="quick-card" href="#resources"><span class="quick-icon lavender">♡</span><span><strong>校外支持資源</strong><small>需要時，知道可以找誰</small></span><b aria-hidden="true">↗</b></a>
+      </div>
+    </section>
+
+    <section class="section mood-section" id="mood">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">MOOD CHECK-IN</p>
+          <h2>心情小氣象</h2>
+          <p class="section-lead">停一下，感受一下現在的自己。心情沒有好壞對錯，先看見它，就是照顧自己的第一步。</p>
+          <div class="mood-options" role="group" aria-label="選擇今天的心情">
+            <button class="mood-option" data-mood="happy" aria-pressed="false"><span>😄</span><strong>開心</strong></button>
+            <button class="mood-option" data-mood="calm" aria-pressed="false"><span>🌿</span><strong>平靜</strong></button>
+            <button class="mood-option" data-mood="worried" aria-pressed="false"><span>😰</span><strong>焦慮</strong></button>
+            <button class="mood-option" data-mood="sad" aria-pressed="false"><span>😢</span><strong>難過</strong></button>
+            <button class="mood-option" data-mood="angry" aria-pressed="false"><span>😤</span><strong>生氣</strong></button>
+          </div>
+          <p class="privacy-note"><span aria-hidden="true">🔒</span> 這是自我覺察練習，不會記錄或傳送你的選擇。</p>
+        </div>
+        <div class="mood-result" id="moodResult" aria-live="polite">
+          <div class="result-sparkle">✦</div>
+          <p class="result-label">給自己一點時間</p>
+          <h3>你現在的心情是什麼呢？</h3>
+          <p>選擇一個最接近的表情，看看有什麼小方法可以照顧自己。你也可以不選，安靜地感受一下。</p>
+          <div class="breathing-line"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team-section" id="team">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">OUR COUNSELING TEAM</p><h2>認識輔導團隊</h2></div>
+          <p>每位孩子的需要都不一樣。學校將依實際分工與需求，提供適切的支持與陪伴。</p>
+        </div>
+        <div class="notice-box"><span aria-hidden="true">ⓘ</span><p>本區為網站原型。正式公開前，請確認實際人員姓名、職稱、職掌、分機與公開方式；尚未確認的資訊以「待補」標示。</p></div>
+        <div class="team-grid">
+          <article class="team-card">
+            <div class="avatar avatar-green">輔</div><p class="card-kicker">行政統籌</p><h3>輔導主任</h3><p>負責輔導處業務統整、年度工作規劃與跨處室資源協調。</p><div class="card-meta"><span>姓名：待補</span><span>聯絡分機：待補</span></div>
+          </article>
+          <article class="team-card">
+            <div class="avatar avatar-blue">輔</div><p class="card-kicker">學生輔導</p><h3>輔導組</h3><p>辦理學生生活輔導、友善校園、生命教育及相關輔導活動。</p><div class="card-meta"><span>承辦人：待補</span><span>聯絡分機：待補</span></div>
+          </article>
+          <article class="team-card">
+            <div class="avatar avatar-peach">親</div><p class="card-kicker">家庭合作</p><h3>親職與家庭教育</h3><p>推動親職教育、家庭教育活動與親師合作資源。</p><div class="card-meta"><span>承辦人：待補</span><span>聯絡分機：待補</span></div>
+          </article>
+          <article class="team-card">
+            <div class="avatar avatar-lavender">特</div><p class="card-kicker">適性支持</p><h3>特殊教育相關業務</h3><p>依學生需求協調特殊教育服務、資源與轉銜支持。</p><div class="card-meta"><span>承辦人：待補</span><span>聯絡分機：待補</span></div>
+          </article>
+          <article class="team-card">
+            <div class="avatar avatar-yellow">談</div><p class="card-kicker">專業陪伴</p><h3>專任輔導教師</h3><p>依校內分工提供個別或團體輔導，並與教師、家長合作。</p><div class="card-meta"><span>姓名：待補</span><span>聯絡方式：待補</span></div>
+          </article>
+          <article class="team-card team-card-contact">
+            <div class="contact-symbol">☎</div><p class="card-kicker">聯絡我們</p><h3>想找人聊一聊？</h3><p>可以先找導師或信任的師長，也可透過學校正式管道聯繫輔導處。</p><div class="card-meta"><span>學校電話：待補</span><span>辦公位置：待補</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section system-section" id="system">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">SUPPORT SYSTEM</p><h2>輔導計畫與體制</h2></div>
+          <p>以預防、及早支持與專業協作為方向，依學生實際需求連結不同層次的輔導資源。</p>
+        </div>
+        <div class="tier-grid">
+          <article class="tier-card tier-one"><span class="tier-number">01</span><p class="tier-label">普及預防</p><h3>初級・發展性輔導</h3><p>面向全體學生，營造安全友善的學習環境，透過課程、活動與班級經營促進健康成長。</p><ul><li>友善校園與生活教育</li><li>情緒覺察與人際互動</li><li>親職教育與教師增能</li></ul></article>
+          <article class="tier-card tier-two"><span class="tier-number">02</span><p class="tier-label">及早介入</p><h3>二級・介入性輔導</h3><p>當學生遇到持續困難時，由校內相關人員依程序評估需求、擬定支持方式並追蹤成效。</p><ul><li>個別或小團體輔導</li><li>親師合作與諮詢</li><li>依需求連結校內資源</li></ul></article>
+          <article class="tier-card tier-three"><span class="tier-number">03</span><p class="tier-label">專業整合</p><h3>三級・處遇性輔導</h3><p>面對較複雜或高需求情況時，依規定與評估結果連結校外專業網絡，共同提供支持。</p><ul><li>專業諮商與評估轉介</li><li>跨專業合作</li><li>必要時連結醫療與社政資源</li></ul></article>
+        </div>
+        <div class="documents-panel">
+          <div><p class="eyebrow">DOCUMENTS & PLANS</p><h3>計畫與公開文件</h3><p>請放置經核定且適合公開的正式文件。</p></div>
+          <div class="document-list">
+            <div class="document-row"><span class="file-icon">PDF</span><span><strong>學生輔導工作計畫</strong><small>年度、核定日期與版本：待補</small></span><span class="status-pill">待補文件</span></div>
+            <div class="document-row"><span class="file-icon">PDF</span><span><strong>學生輔導工作委員會公開資訊</strong><small>公開範圍與文件連結：待補</small></span><span class="status-pill">待補文件</span></div>
+            <div class="document-row"><span class="file-icon">PDF</span><span><strong>家長與教師輔導資源</strong><small>文件名稱、更新日期：待補</small></span><span class="status-pill">待補文件</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section activities-section" id="activities">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">LEARN & GROW</p><h2>輔導活動與 SEL</h2></div>
+          <p>從認識自己開始，練習理解情緒、照顧自己、理解他人，並在需要時尋求協助。</p>
+        </div>
+        <div class="activity-grid">
+          <article class="activity-card activity-sel"><div class="activity-illustration"><span class="illustration-face">☺</span><span class="illustration-leaf">✦</span></div><div class="activity-content"><p class="card-kicker">SOCIAL EMOTIONAL LEARNING</p><h3>社會情緒學習（SEL）</h3><p>透過日常課程與活動，練習自我覺察、自我管理、社會覺察、人際技巧與負責任的決定。</p><a href="#mood" class="text-link">試試心情小氣象 <span>→</span></a></div></article>
+          <article class="activity-card activity-family"><div class="activity-illustration"><span class="family-heart">♡</span><span class="family-spark">✧</span></div><div class="activity-content"><p class="card-kicker">PARENT EDUCATION</p><h3>親職教育與家庭合作</h3><p>提供親子溝通、情緒陪伴與正向教養的實用觀點，促進家校合作。</p><span class="coming-label">活動與資源：待補</span></div></article>
+          <article class="activity-card activity-life"><div class="activity-illustration"><span class="life-flower">✿</span><span class="life-sun">☼</span></div><div class="activity-content"><p class="card-kicker">LIFE EDUCATION</p><h3>生命教育與成長活動</h3><p>透過體驗、閱讀、服務與對話，陪伴學生看見生命價值、學習尊重與關懷。</p><span class="coming-label">活動紀錄：待補</span></div></article>
+        </div>
+        <div class="quote-band"><span class="quote-mark">“</span><div><p>情緒不是需要被消滅的問題，而是值得被理解的訊息。</p><small>先停一停、說出感受，再一起想下一步。</small></div><span class="quote-decoration">✦</span></div>
+      </div>
+    </section>
+
+    <section class="section resources-section" id="resources">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">SUPPORT & CONNECTION</p><h2>校外支持資源</h2></div>
+          <p>若校內支持還不夠，也可以在師長或家長陪同下，尋找適合的專業資源。</p>
+        </div>
+        <div class="safety-banner"><span class="safety-icon">♡</span><div><strong>你不需要獨自面對困難</strong><p>若有立即安全疑慮，請先找身邊可信任的大人；緊急情況請聯絡當地緊急服務。</p></div></div>
+        <div class="resource-grid">
+          <article class="resource-card"><div class="resource-icon icon-green">☏</div><p class="card-kicker">心理支持</p><h3>安心專線 1925</h3><p>衛生福利部提供的心理支持專線。服務時間與使用方式請以官方公告為準。</p><a href="https://www.mohw.gov.tw/" target="_blank" rel="noopener noreferrer" class="text-link">衛福部官方網站 ↗</a></article>
+          <article class="resource-card"><div class="resource-icon icon-peach">⌂</div><p class="card-kicker">保護與安全</p><h3>保護專線 113</h3><p>涉及家庭暴力、兒少保護等疑慮時，可向專業單位尋求協助；如有立即危險請聯絡緊急服務。</p><a href="https://dep.mohw.gov.tw/DOPS/" target="_blank" rel="noopener noreferrer" class="text-link">衛福部保護服務司 ↗</a></article>
+          <article class="resource-card"><div class="resource-icon icon-blue">◎</div><p class="card-kicker">在地支持</p><h3>新竹市相關資源</h3><p>學生輔導諮商中心、社區心理衛生中心及其他在地資源之正式資訊待核實後補入。</p><span class="coming-label">電話與地址：待核實</span></article>
+        </div>
+        <p class="resource-disclaimer">提醒：本頁提供一般資訊，不取代專業評估或緊急服務。專線服務內容、時間及聯絡資訊，正式公開前請再次核對官方來源。</p>
+      </div>
+    </section>
+
+    <section class="closing-section">
+      <div class="container closing-inner">
+        <div><p class="eyebrow">YOU ARE NOT ALONE</p><h2>每一步成長，<br>都可以有人同行。</h2><p>有困難時，先找一位你信任的大人說說看。願每個孩子都能在安全、尊重與理解中，慢慢長出自己的力量。</p></div>
+        <a class="button button-light" href="#home">回到專區首頁 ↑</a>
+        <div class="closing-orbit orbit-one"></div><div class="closing-orbit orbit-two"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand"><span class="brand-mark" aria-hidden="true">心</span><div><strong>學生輔導專區</strong><small>新竹市東區三民國小</small></div></div>
+      <div class="footer-info"><p>學校地址：待補　｜　學校電話：待補</p><p>本專區為網站原型，內容與聯絡資料正式公開前須由校方確認。</p></div>
+      <a class="back-top" href="#home">回到頂部 ↑</a>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="currentYear"></span> 新竹市東區三民國小｜學生輔導專區</span><span>以尊重、保護隱私與適性支持為原則</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
